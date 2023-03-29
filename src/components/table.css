@@ -1,0 +1,44 @@
+caption{
+    font-size: 30px;
+    margin: 12px;
+}
+
+table{
+    /* border: 2px solid black; */
+    width: 1000px;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+th{
+    background-color: rgb(35, 34, 34);
+    color: white;
+}
+
+.btn{
+    width: 100px;
+    color: white;
+    background-color: chartreuse;
+}
+
+
+tr:nth-child(odd) td{
+    background-color: rgba(137, 43, 226, 0.393);
+    padding: 2px;  
+
+    /* border: 1px solid black; */
+
+}
+tr:nth-child(even) td {
+    padding: 2px;  
+
+    background-color: rgba(49, 61, 137, 0.507);
+}
+
+/* td{
+    width: 20%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;  
+    background-color: rgb(170, 170, 170);
+} */

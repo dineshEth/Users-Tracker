@@ -1,0 +1,152 @@
+.form_body{
+    width: 500px;
+    border: 2px solid purple;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin: 8px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_title{
+    text-align: center;
+    color: blue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    gap: 15px;
+}
+
+.name {
+    width: 400px;
+    display: flex;
+    gap:10px;
+}
+.name input{
+    width: 340px;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.email {
+    width: 400px;
+    display: flex;
+    gap:10px;
+}
+.email input{
+    width: 340px;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.contact {
+    width: 400px;
+    display: flex;
+    gap:10px;
+}
+.contact input{
+    width: 340px;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.address{
+    display: flex;
+    gap: 10px;
+}
+.address > textarea{
+    width: 100%;
+    /* max-width: 100%; */
+    min-width: 60%;
+    min-height: 5vh;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.gender {
+    display: flex;
+    gap: 30px;
+}
+.gender .male_female{
+    display: flex;
+    gap: 12px;
+}
+
+.city{
+    width: 400px;
+    display: flex;
+    gap: 15px;
+}
+.city select{
+    width: 50%;
+    text-align: center;
+    padding: 2px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.DOB{
+    width: 400px;
+    display: flex;
+    gap: 15px;
+}
+.DOB input{
+    width: 50%;
+    padding: 2px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.agree{
+    width: 400px;
+    display: flex;
+    gap: 5px;
+}
+
+.agree span {
+    font-size: 18px;
+}
+.buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: 2px solid purple;
+    background-color: rgb(221, 15, 183);
+    color: white;
+    border-radius: 12px;
+    padding: 3px 16px;
+    width: 30%;
+    font-size: 18px;
+}
+

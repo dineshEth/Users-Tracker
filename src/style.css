@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px; */
+    /* min-height: 100vh; */
+    gap: 15px;
+    /* width: 100%; */
+
+}
